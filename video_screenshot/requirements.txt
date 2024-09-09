@@ -1,0 +1,5 @@
+python==3.11.8
+pandas==2.2.2
+opencv-python==4.9.0.80
+pytubefix==6.9.2
+
