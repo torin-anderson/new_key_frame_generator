@@ -9,5 +9,5 @@ df = pd.read_csv("./get_keyframes/duration_set_4.csv")
 video_ids = df['videoId'].tolist()
 video_ids = [id.split(':')[1] for id in video_ids]
 
-for _id in video_ids[:5]:
+for _id in video_ids:
     kf.generate_keyframes(_id)
